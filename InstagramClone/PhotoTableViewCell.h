@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoTableViewCell.h
 //  InstagramClone
 //
 //  Created by Sarp Centel on 2/5/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PhotoTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *photoView;
 
 @end
-
